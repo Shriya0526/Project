@@ -249,14 +249,12 @@ body
 /* Responsive for phones (max-width: 767px) */
 @media (max-width: 767px) {
   .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .nav-item {
-    margin: 6px 0;
-    font-size: 13px;
+    margin: 10px;
   }
 
   .dropdown {
